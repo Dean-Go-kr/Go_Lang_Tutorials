@@ -3,5 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Hello, world!")
+	// Golang automately set the type
+	name := "deango"
+	name = "dhlee"
+	fmt.Println(name)
 }
